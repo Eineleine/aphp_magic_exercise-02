@@ -8,14 +8,14 @@ spl_autoload_register('autoloader');
 $userVerification = new UserVerification();
 
 //авторизация пользователя App
-$userVerification->authenticate("AlexApp", '100176');
+$userVerification->authentication("AlexApp", '100176');
 
 
 //авторизация пользователя Mobile
-$userVerification->authenticate("AlexMob", '100176');
+$userVerification->authentication("AlexMob", '100176');
 
 //неверные креды
-$userVerification->authenticate("Alex", '100');
+$userVerification->authentication("Alex", '100');
 
 
 
