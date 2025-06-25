@@ -12,7 +12,10 @@ $userVerification->authenticate("AlexApp", '100176');
 
 
 //авторизация пользователя Mobile
-$userVerification->authenticateMobile("AlexMob", '100176');
+$userVerification->authenticate("AlexMob", '100176');
+
+//неверные креды
+$userVerification->authenticate("Alex", '100');
 
 
 
